@@ -26,8 +26,8 @@ function Map() {
                         <Marker key={idx} position={[d.lat, d.lon]}
                             icon={
                                 new L.Icon({
-                                    iconUrl: '/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
-                                    iconRetinaUrl: '/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconRetinaUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
                                     iconAnchor: new L.Point(12, 38),
                                     popupAnchor: new L.Point(0, -36),
                                     iconSize: new L.Point(25, 41)
@@ -50,8 +50,8 @@ function Map() {
                         <Marker key={idx} position={[d.lat, d.lon]}
                             icon={
                                 new L.Icon({
-                                    iconUrl: '/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
-                                    iconRetinaUrl: '/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconRetinaUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
                                     iconAnchor: new L.Point(12, 38),
                                     popupAnchor: new L.Point(0, -36),
                                     iconSize: new L.Point(25, 41)
