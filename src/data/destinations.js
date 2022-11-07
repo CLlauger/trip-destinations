@@ -38,7 +38,7 @@ export const destinations = [
     {
         name: "Bordeus",
         lat: 44.79384015,
-        lon: 0.60630859,
+        lon: -0.60630859,
         country: "FR"
     },
     {
@@ -148,7 +148,7 @@ export const destinations = [
     {
         name: "Londres",
         lat: 51.5073219,
-        lon: 0.1276474,
+        lon: -0.1276474,
         country: "GB",
         region: "Anglaterra",
         flag: "GB_ENG"
@@ -194,7 +194,7 @@ export const destinations = [
     {
         name: "Nantes",
         lat: 47.2170954,
-        lon: 1.541423,
+        lon: -1.541423,
         country: "FR"
     },
     {
