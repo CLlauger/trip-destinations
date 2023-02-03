@@ -2,7 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup, LayersControl, LayerGroup } fro
 import "leaflet/dist/leaflet.css";
 import { destinations } from './data/destinations';
 import { countries } from './data/countries';
-import { summer2022, winter2022 } from './data/seasons';
+import { altres, espanya, summer2022, winter2022 } from './data/seasons';
 import L from 'leaflet';
 
 function getFlagEmoji(countryCode) {
@@ -47,6 +47,54 @@ function Map() {
                     {
                     destinations.map((d, idx) =>
                         winter2022.includes(d.name) ?
+                        <Marker key={idx} position={[d.lat, d.lon]}
+                            icon={
+                                new L.Icon({
+                                    iconUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconRetinaUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconAnchor: new L.Point(12, 38),
+                                    popupAnchor: new L.Point(0, -36),
+                                    iconSize: new L.Point(25, 41)
+                                })
+                            }>
+                            <Popup>
+                                {getFlagEmoji(d.country)+" "+d.name+" ("+(d.region !== undefined ? d.region+", " : "")+countries[d.country]+")"}
+                            </Popup>
+                        </Marker>
+                        : undefined
+                    )
+                    }
+                    </LayerGroup>
+                </LayersControl.Overlay>
+                <LayersControl.Overlay name="Altres destins ofertats">
+                    <LayerGroup>
+                    {
+                    destinations.map((d, idx) =>
+                        altres.includes(d.name) ?
+                        <Marker key={idx} position={[d.lat, d.lon]}
+                            icon={
+                                new L.Icon({
+                                    iconUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconRetinaUrl: '/trip-destinations/markers/' + (d.flag !== undefined ? d.flag.toLowerCase() : d.country.toLowerCase()) + '.svg',
+                                    iconAnchor: new L.Point(12, 38),
+                                    popupAnchor: new L.Point(0, -36),
+                                    iconSize: new L.Point(25, 41)
+                                })
+                            }>
+                            <Popup>
+                                {getFlagEmoji(d.country)+" "+d.name+" ("+(d.region !== undefined ? d.region+", " : "")+countries[d.country]+")"}
+                            </Popup>
+                        </Marker>
+                        : undefined
+                    )
+                    }
+                    </LayerGroup>
+                </LayersControl.Overlay>
+                <LayersControl.Overlay name="Espanya">
+                    <LayerGroup>
+                    {
+                    destinations.map((d, idx) =>
+                        espanya.includes(d.name) ?
                         <Marker key={idx} position={[d.lat, d.lon]}
                             icon={
                                 new L.Icon({

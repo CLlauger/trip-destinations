@@ -83,3 +83,52 @@ export const winter2022 = [
     "Viena",
     "Zuric"
 ];
+
+export const altres = [
+    "Cracòvia",
+    "Eivissa",
+    "Estrasburg",
+    "Fuerteventura",
+    "Gran Canària",
+    "Lanzarote",
+    "Luxemburg",
+    "Manchester",
+    "Menorca",
+    "Pisa",
+    "Reykjavík",
+    "Rotterdam",
+    "Salzburg",
+    "Stuttgart",
+    "Tenerife",
+    "Tolosa",
+    "Varsòvia"
+];
+
+export const espanya = [
+    "Alacant",
+    "Almeria",
+    "Barcelona",
+    "Bilbao",
+    "Còrdova",
+    "Eivissa",
+    "El Hierro",
+    "Formentera",
+    "Fuerteventura",
+    "Gran Canària",
+    "Granada",
+    "La Corunya",
+    "Lanzarote",
+    "Madrid",
+    "Màlaga",
+    "Mallorca",
+    "Menorca",
+    "Oviedo",
+    "Pamplona",
+    "Sant Sebastià",
+    "Santander",
+    "Santiago",
+    "Sevilla",
+    "Tenerife",
+    "València",
+    "Vigo"
+];

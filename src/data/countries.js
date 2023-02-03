@@ -13,10 +13,13 @@ export const countries = {
     HR: "Croàcia",
     HU: "Hongria",
     IE: "Irlanda",
+    IS: "Islàndia",
     IT: "Itàlia",
+    LU: "Luxemburg",
     MT: "Malta",
     NL: "Països Baixos",
     NO: "Noruega",
+    PL: "Polònia",
     PT: "Portugal",
     SE: "Suècia"
 };
