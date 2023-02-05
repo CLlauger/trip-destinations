@@ -5,7 +5,8 @@ export const destinations = [
         lon: -0.4881708,
         country: "ES",
         region: "País Valencià",
-        flag: "ES_CT"
+        flag: "ES_CT",
+        language: ["valencià"]
     },
     {
         name: "Almeria",
@@ -39,10 +40,12 @@ export const destinations = [
         lon: 2.1774322,
         country: "ES",
         region: "Catalunya",
-        flag: "ES_CT"
+        flag: "ES_CT",
+        language: ["català"]
     },
     {
         name: "Basilea",
+        language: ["alemany"],
         lat: 47.5581077, 
         lon: 7.5878261,
         country: "CH"
@@ -59,19 +62,22 @@ export const destinations = [
         lon: -2.93538802,
         country: "ES",
         region: "País Basc",
-        flag: "ES_PV"
+        flag: "ES_PV",
+        language: ["basc"]
     },
     {
         name: "Bolonya",
         lat: 44.4333133,
         lon: 11.39450258,
-        country: "IT"
+        country: "IT",
+        language: ["emilià-romanyol"]
     },
     {
         name: "Bordeus",
         lat: 44.79384015,
         lon: -0.60630859,
-        country: "FR"
+        country: "FR",
+        language: ["occità"]
     },
     {
         name: "Brussel·les",
@@ -135,7 +141,8 @@ export const destinations = [
         lon: -3.1883749,
         country: "GB",
         region: "Escòcia",
-        flag: "GB_SCT"
+        flag: "GB_SCT",
+        language: ["gaèlic escocès"]
     },
     {
         name: "Eindhoven",
@@ -149,7 +156,8 @@ export const destinations = [
         lon: 1.41974632,
         country: "ES",
         region: "Illes Balears",
-        flag: "ES_IB"
+        flag: "ES_IB",
+        language: ["català"]
     },
     {
         name: "El Hierro",
@@ -175,7 +183,8 @@ export const destinations = [
         name: "Florència",
         lat: 43.7698712,
         lon: 11.2555757,
-        country: "IT"
+        country: "IT",
+        language: ["toscà"]
     },
     {
         name: "Formentera",
@@ -183,7 +192,8 @@ export const destinations = [
         lon: 1.43352656,
         country: "ES",
         region: "Illes Balears",
-        flag: "ES_IB"
+        flag: "ES_IB",
+        language: ["català"]
     },
     {
         name: "Frankfurt",
@@ -201,6 +211,7 @@ export const destinations = [
     },
     {
         name: "Ginebra",
+        language: ["francès"],
         lat: 46.2017559,
         lon: 6.1466014,
         country: "CH"
@@ -239,7 +250,8 @@ export const destinations = [
         lon: -8.3959425,
         country: "ES",
         region: "Galícia",
-        flag: "ES_GA"
+        flag: "ES_GA",
+        language: ["gallec"]
     },
     {
         name: "Lanzarote",
@@ -253,7 +265,8 @@ export const destinations = [
         name: "Lió",
         lat: 45.7578137,
         lon: 4.8320114,
-        country: "FR"
+        country: "FR",
+        language: ["francoprovençal"]
     },
     {
         name: "Lisboa",
@@ -297,7 +310,8 @@ export const destinations = [
         lon: 2.88035364,
         country: "ES",
         region: "Illes Balears",
-        flag: "ES_IB"
+        flag: "ES_IB",
+        language: ["català"]
     },
     {
         name: "Malta",
@@ -317,7 +331,8 @@ export const destinations = [
         name: "Marsella",
         lat: 43.2961743,
         lon: 5.3699525,
-        country: "FR"
+        country: "FR",
+        language: ["occità"]
     },
     {
         name: "Menorca",
@@ -325,13 +340,15 @@ export const destinations = [
         lon: 4.05295156,
         country: "ES",
         region: "Illes Balears",
-        flag: "ES_IB"
+        flag: "ES_IB",
+        language: ["català"]
     },
     {
         name: "Milà",
         lat: 45.4542119,
         lon: 9.11135096,
-        country: "IT"
+        country: "IT",
+        language: ["llombard"]
     },
     {
         name: "Munic",
@@ -349,19 +366,22 @@ export const destinations = [
         name: "Nantes",
         lat: 47.2170954,
         lon: -1.541423,
-        country: "FR"
+        country: "FR",
+        language: ["gal·ló"]
     },
     {
         name: "Nàpols",
         lat: 40.8358846,
         lon: 14.2487679,
-        country: "IT"
+        country: "IT",
+        language: ["napolità"]
     },
     {
         name: "Niça",
         lat: 43.7009358,
         lon: 7.2683912,
-        country: "FR"
+        country: "FR",
+        language: ["occità"]
     },
     {
         name: "Oslo",
@@ -375,7 +395,8 @@ export const destinations = [
         lon: -5.8450534,
         country: "ES",
         region: "Astúries",
-        flag: "ES"
+        flag: "ES",
+        language: ["asturià"]
     },
     {
         name: "Pamplona",
@@ -383,7 +404,8 @@ export const destinations = [
         lon: -1.6440304,
         country: "ES",
         region: "Navarra",
-        flag: "ES_PV"
+        flag: "ES_PV",
+        language: ["basc"]
     },
     {
         name: "París",
@@ -395,7 +417,8 @@ export const destinations = [
         name: "Pisa",
         lat: 43.7295803,
         lon: 10.3898191,
-        country: "IT"
+        country: "IT",
+        language: ["toscà"]
     },
     {
         name: "Porto",
@@ -413,7 +436,8 @@ export const destinations = [
         name: "Pulla",
         lat: 40.9842539,
         lon: 16.6210027,
-        country: "IT"
+        country: "IT",
+        language: ["napolità"]
     },
     {
         name: "Reykjavík",
@@ -445,7 +469,8 @@ export const destinations = [
         lon: -1.9838889,
         country: "ES",
         region: "País Basc",
-        flag: "ES_PV"
+        flag: "ES_PV",
+        language: ["basc"]
     },
     {
         name: "Santander",
@@ -461,7 +486,8 @@ export const destinations = [
         lon: -8.5458608,
         country: "ES",
         region: "Galícia",
-        flag: "ES_GA"
+        flag: "ES_GA",
+        language: ["gallec"]
     },
     {
         name: "Santorini",
@@ -475,7 +501,8 @@ export const destinations = [
         lon: 9.09775381,
         country: "IT",
         region: "Sardenya",
-        flag: "IT_88"
+        flag: "IT_88",
+        language: ["sard"]
     },
     {
         name: "Sevilla",
@@ -491,7 +518,8 @@ export const destinations = [
         lon: 14.155048,
         country: "IT",
         region: "Sicília",
-        flag: "IT_82"
+        flag: "IT_82",
+        language: ["sicilià"]
     },
     {
         name: "Stuttgart",
@@ -511,13 +539,15 @@ export const destinations = [
         name: "Tolosa",
         lat: 43.6114306,
         lon: 1.4542101,
-        country: "FR"
+        country: "FR",
+        language: ["occità"]
     },
     {
         name: "Torí",
         lat: 45.15803915,
         lon: 7.51236305,
-        country: "IT"
+        country: "IT",
+        language: ["piemontès"]
     },
     {
         name: "València",
@@ -525,7 +555,8 @@ export const destinations = [
         lon: -0.3763353,
         country: "ES",
         region: "País Valencià",
-        flag: "ES_CT"
+        flag: "ES_CT",
+        language: ["valencià"]
     },
     {
         name: "Varsòvia",
@@ -537,13 +568,15 @@ export const destinations = [
         name: "Venècia",
         lat: 45.45512045,
         lon: 12.25037908,
-        country: "IT"
+        country: "IT",
+        language: ["vènet"]
     },
     {
         name: "Verona",
         lat: 45.4384958,
         lon: 10.9924122,
-        country: "IT"
+        country: "IT",
+        language: ["llombard"]
     },
     {
         name: "Viena",
@@ -557,10 +590,12 @@ export const destinations = [
         lon: -8.7247205,
         country: "ES",
         region: "Galícia",
-        flag: "ES_GA"
+        flag: "ES_GA",
+        language: ["gallec"]
     },
     {
         name: "Zuric",
+        language: ["alemany"],
         lat: 47.3744489, 
         lon: 8.5410422,
         country: "CH"
