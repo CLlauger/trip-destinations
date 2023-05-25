@@ -210,6 +210,13 @@ export const destinations = [
         flag: "ES_CN"
     },
     {
+        name: "Gènova",
+        language: ["lígur"],
+        lat: 44.4072972,
+        lon: 8.9338113,
+        country: "IT"
+    },
+    {
         name: "Ginebra",
         language: ["francès"],
         lat: 46.2017559,
@@ -287,6 +294,14 @@ export const destinations = [
         lat: 49.8158683,
         lon: 6.1296751,
         country: "LU"
+    },
+    {
+        name: "Madeira",
+        lat: 32.7517501,
+        lon: -16.98174866,
+        country: "PT",
+        region: "Regió Autònoma de Madeira",
+        flag: "PT"
     },
     {
         name: "Madrid",
@@ -520,6 +535,12 @@ export const destinations = [
         region: "Sicília",
         flag: "IT_82",
         language: ["sicilià"]
+    },
+    {
+        name: "Split",
+        lat: 43.5116383,
+        lon: 16.4399659,
+        country: "HR"
     },
     {
         name: "Stuttgart",
