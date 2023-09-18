@@ -15,6 +15,14 @@ export const countries = {
         eu: "✅ (Fundador)",
         requirements: "Recomanable DNI o passaport"
     },
+    BG: {
+        name: "Bulgària",
+        language: ["búlgar"],
+        currency: "Lev Lv",
+        schengen: "❌ (Obligat a unir-s'hi)",
+        eu: "✅ (1 gener 2007)",
+        requirements: "Recomanable DNI o passaport"
+    },
     CH: {
         name: "Suïssa",
         language: [""],
@@ -135,6 +143,14 @@ export const countries = {
         eu: "✅ (Fundador)",
         requirements: "Recomanable DNI o passaport"
     },
+    LV: {
+        name: "Letònia",
+        language: ["letó"],
+        currency: "Euro €",
+        schengen: "✅ (21 desembre 2007)",
+        eu: "✅ (1 maig 2004)",
+        requirements: "Recomanable DNI o passaport"
+    },
     MT: {
         name: "Malta",
         language: ["maltès", "anglès"],
@@ -173,6 +189,14 @@ export const countries = {
         currency: "Euro €",
         schengen: "✅ (26 març 1995)",
         eu: "✅ (1 gener 1986)",
+        requirements: "Recomanable DNI o passaport"
+    },
+    RO: {
+        name: "Romania",
+        language: ["romanès"],
+        currency: "Leu romanès L",
+        schengen: "❌ (Obligat a unir-s'hi)",
+        eu: "✅ (1 gener 2007)",
         requirements: "Recomanable DNI o passaport"
     },
     SE: {

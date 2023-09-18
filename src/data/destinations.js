@@ -86,6 +86,12 @@ export const destinations = [
         country: "BE"
     },
     {
+        name: "Bucarest",
+        lat: 44.4361414,
+        lon: 26.1027202,
+        country: "RO"
+    },
+    {
         name: "Budapest",
         lat: 47.48138955,
         lon: 19.14609413,
@@ -210,6 +216,12 @@ export const destinations = [
         flag: "ES_CN"
     },
     {
+        name: "Gdansk",
+        lat: 54.3482907,
+        lon: 18.6540233,
+        country: "PL"
+    },
+    {
         name: "Gènova",
         language: ["lígur"],
         lat: 44.4072972,
@@ -294,6 +306,12 @@ export const destinations = [
         lat: 49.8158683,
         lon: 6.1296751,
         country: "LU"
+    },
+    {
+        name: "Maastricht",
+        lat: 50.8512438,
+        lon: 5.6909768,
+        country: "NL"
     },
     {
         name: "Madeira",
@@ -399,6 +417,12 @@ export const destinations = [
         language: ["occità"]
     },
     {
+        name: "Nuremberg",
+        lat: 49.453872,
+        lon: 11.077298,
+        country: "DE"
+    },
+    {
         name: "Oslo",
         lat: 59.97239745, 
         lon: 10.77572919,
@@ -459,6 +483,12 @@ export const destinations = [
         lat: 64.145981,
         lon: -21.9422367,
         country: "IS"
+    },
+    {
+        name: "Riga",
+        lat: 56.9493977,
+        lon: 24.1051846,
+        country: "LV"
     },
     {
         name: "Roma",
@@ -535,6 +565,12 @@ export const destinations = [
         region: "Sicília",
         flag: "IT_82",
         language: ["sicilià"]
+    },
+    {
+        name: "Sofia",
+        lat: 42.6977028,
+        lon: 23.3217359,
+        country: "BG"
     },
     {
         name: "Split",
