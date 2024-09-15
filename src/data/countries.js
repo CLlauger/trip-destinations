@@ -55,6 +55,14 @@ export const countries = {
         eu: "✅ (1 gener 1973)",
         requirements: "Recomanable DNI o passaport"
     },
+    EE: {
+        name: "Estònia",
+        language: ["estonià"],
+        currency: "Euro €",
+        schengen: "✅ (21 desembre 2007)",
+        eu: "✅ (1 maig 2004)",
+        requirements: "Recomanable DNI o passaport"
+    },
     ES: {
         name: "Espanya",
         language: ["castellà"],
@@ -133,6 +141,14 @@ export const countries = {
         currency: "Euro €",
         schengen: "✅ (26 octubre 1997)",
         eu: "✅ (Fundador)",
+        requirements: "Recomanable DNI o passaport"
+    },
+    LT: {
+        name: "Lituània",
+        language: ["lituà"],
+        currency: "Euro €",
+        schengen: "✅ (21 desembre 2007)",
+        eu: "✅ (1 maig 2004)",
         requirements: "Recomanable DNI o passaport"
     },
     LU: {

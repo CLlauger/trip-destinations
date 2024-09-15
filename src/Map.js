@@ -2,7 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup, LayersControl, LayerGroup } fro
 import "leaflet/dist/leaflet.css";
 import { destinations } from './data/destinations';
 import { countries } from './data/countries';
-import { altres, espanya, summer2022, summer2023, winter2022, winter2023 } from './data/seasons';
+import { altres, espanya, summer2022, summer2023, winter2022, winter2023, summer2024 } from './data/seasons';
 import L from 'leaflet';
 
 function getFlagEmoji(countryCode) {
@@ -79,7 +79,11 @@ function Map() {
         },
         {
             name: "Tardor-Hivern 2023-2024",
-            destinations: winter2023,
+            destinations: winter2023
+        },
+        {
+            name: "Primavera-Estiu 2024",
+            destinations: summer2024,
             checked: true
         },
         {

@@ -80,6 +80,12 @@ export const destinations = [
         language: ["occità"]
     },
     {
+        name: "Breslau",
+        lat: 51.108978,
+        lon: 17.032669,
+        country: "PL"
+    },
+    {
         name: "Brussel·les",
         lat: 50.8465573,
         lon: 4.351697,
@@ -234,6 +240,12 @@ export const destinations = [
         lat: 46.2017559,
         lon: 6.1466014,
         country: "CH"
+    },
+    {
+        name: "Göteborg",
+        lat: 57.707233,
+        lon: 11.967017,
+        country: "SV"
     },
     {
         name: "Gran Canària",
@@ -585,6 +597,12 @@ export const destinations = [
         country: "DE"
     },
     {
+        name: "Tallinn",
+        lat: 59.437216,
+        lon: 24.745369,
+        country: "EE"
+    },
+    {
         name: "Tenerife",
         lat: 28.2935785,
         lon: -16.62144712,
@@ -649,6 +667,12 @@ export const destinations = [
         region: "Galícia",
         flag: "ES_GA",
         language: ["gallec"]
+    },
+    {
+        name: "Vílnius",
+        lat: 54.687046,
+        lon: 25.282911,
+        country: "LT"
     },
     {
         name: "Zuric",
