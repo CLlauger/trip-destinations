@@ -245,7 +245,7 @@ export const destinations = [
         name: "Göteborg",
         lat: 57.707233,
         lon: 11.967017,
-        country: "SV"
+        country: "SE"
     },
     {
         name: "Gran Canària",

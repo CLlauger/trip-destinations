@@ -19,7 +19,7 @@ export const countries = {
         name: "Bulgària",
         language: ["búlgar"],
         currency: "Lev Lv",
-        schengen: "❌ (Obligat a unir-s'hi)",
+        schengen: "✅ (31 març 2024)",
         eu: "✅ (1 gener 2007)",
         requirements: "Recomanable DNI o passaport"
     },
@@ -211,7 +211,7 @@ export const countries = {
         name: "Romania",
         language: ["romanès"],
         currency: "Leu romanès L",
-        schengen: "❌ (Obligat a unir-s'hi)",
+        schengen: "✅ (31 març 2024)",
         eu: "✅ (1 gener 2007)",
         requirements: "Recomanable DNI o passaport"
     },
